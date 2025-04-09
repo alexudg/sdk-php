@@ -41,8 +41,7 @@ class Serializer
                     }
                 }
             } else {
-                if(property_exists($object, $key))
-                    $object->{$key} = $value;
+                $object->{$key} = $value;
             }
         }
 
