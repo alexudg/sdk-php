@@ -6,6 +6,7 @@ use MercadoPago\Net\MPResource;
 use MercadoPago\Serialization\Mapper;
 
 /** Preference class. */
+#[\AllowDynamicProperties] // added this line fix error 
 class Preference extends MPResource
 {
     /** Class mapper. */
